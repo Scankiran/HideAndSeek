@@ -1,0 +1,6 @@
+framework module Pods_HideMe {
+  umbrella header "Pods-HideMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
