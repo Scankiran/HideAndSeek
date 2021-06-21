@@ -43,4 +43,10 @@ I used this article to develop this project. You can get more information on the
 ## Demo Video
 [Youtube Demo Video](https://youtu.be/lAo0D50RLtc)
 
+## ScreenShots
+![getImageView](https://i.hizliresim.com/9kozqnz.png)
+
+![sendImageView](https://i.hizliresim.com/qduwz69.png)
+
+![mainPage](https://i.hizliresim.com/ru2hrtk.png)
 
