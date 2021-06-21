@@ -9,8 +9,6 @@ In this project your message will hide inside an image. And there is no differen
 
 ## Steganography
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. This iOS app allows the user to take a picture and hide a text message within the pixels before sharing it with a receiver. New version will support hiding images and using audio files as hiding support.
 
 
