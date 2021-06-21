@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3BDA1F26811FCE00459CB6 /* FirstViewKontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BDA1E26811FCE00459CB6 /* FirstViewKontroller.swift */; };
+		2C3BDA282681210200459CB6 /* SendImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BDA272681210200459CB6 /* SendImageViewController.swift */; };
 		2C96EC882672A8A200B46D43 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96EC872672A8A200B46D43 /* Encoder.swift */; };
 		2C96EC8B2672A8A800B46D43 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96EC8A2672A8A800B46D43 /* Decoder.swift */; };
 		2C96EC8E2672A8BA00B46D43 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96EC8D2672A8BA00B46D43 /* Utilities.swift */; };
 		2C96EC912672A90500B46D43 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96EC902672A90500B46D43 /* Defaults.swift */; };
 		2CBD6D6F267139DF008E06E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD6D6E267139DF008E06E4 /* AppDelegate.swift */; };
 		2CBD6D71267139DF008E06E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD6D70267139DF008E06E4 /* SceneDelegate.swift */; };
-		2CBD6D73267139DF008E06E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD6D72267139DF008E06E4 /* ViewController.swift */; };
+		2CBD6D73267139DF008E06E4 /* GetImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD6D72267139DF008E06E4 /* GetImageViewController.swift */; };
 		2CBD6D76267139DF008E06E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD6D74267139DF008E06E4 /* Main.storyboard */; };
 		2CBD6D78267139E0008E06E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD6D77267139E0008E06E4 /* Assets.xcassets */; };
 		2CBD6D7B267139E0008E06E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD6D79267139E0008E06E4 /* LaunchScreen.storyboard */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		040296DE6458DD3B97FDB15F /* Pods_HideMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HideMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3BDA1E26811FCE00459CB6 /* FirstViewKontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewKontroller.swift; sourceTree = "<group>"; };
+		2C3BDA272681210200459CB6 /* SendImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendImageViewController.swift; sourceTree = "<group>"; };
 		2C96EC872672A8A200B46D43 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 		2C96EC8A2672A8A800B46D43 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		2C96EC8D2672A8BA00B46D43 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -30,7 +34,7 @@
 		2CBD6D6B267139DF008E06E4 /* HideMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBD6D6E267139DF008E06E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBD6D70267139DF008E06E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CBD6D72267139DF008E06E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CBD6D72267139DF008E06E4 /* GetImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageViewController.swift; sourceTree = "<group>"; };
 		2CBD6D75267139DF008E06E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CBD6D77267139E0008E06E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CBD6D7A267139E0008E06E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3BDA1D26811FAC00459CB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C3BDA1E26811FCE00459CB6 /* FirstViewKontroller.swift */,
+				2C3BDA272681210200459CB6 /* SendImageViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2C96EC852672A88A00B46D43 /* Process */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,11 +97,12 @@
 		2CBD6D6D267139DF008E06E4 /* HideMe */ = {
 			isa = PBXGroup;
 			children = (
+				2C3BDA1D26811FAC00459CB6 /* Views */,
 				2CC6BB692672B4DD00CE9CAF /* GoogleService-Info.plist */,
 				2C96EC852672A88A00B46D43 /* Process */,
 				2CBD6D6E267139DF008E06E4 /* AppDelegate.swift */,
 				2CBD6D70267139DF008E06E4 /* SceneDelegate.swift */,
-				2CBD6D72267139DF008E06E4 /* ViewController.swift */,
+				2CBD6D72267139DF008E06E4 /* GetImageViewController.swift */,
 				2CBD6D74267139DF008E06E4 /* Main.storyboard */,
 				2CBD6D77267139E0008E06E4 /* Assets.xcassets */,
 				2CBD6D79267139E0008E06E4 /* LaunchScreen.storyboard */,
@@ -232,7 +246,9 @@
 				2C96EC8E2672A8BA00B46D43 /* Utilities.swift in Sources */,
 				2C96EC912672A90500B46D43 /* Defaults.swift in Sources */,
 				2C96EC882672A8A200B46D43 /* Encoder.swift in Sources */,
-				2CBD6D73267139DF008E06E4 /* ViewController.swift in Sources */,
+				2C3BDA282681210200459CB6 /* SendImageViewController.swift in Sources */,
+				2C3BDA1F26811FCE00459CB6 /* FirstViewKontroller.swift in Sources */,
+				2CBD6D73267139DF008E06E4 /* GetImageViewController.swift in Sources */,
 				2CBD6D6F267139DF008E06E4 /* AppDelegate.swift in Sources */,
 				2C96EC8B2672A8A800B46D43 /* Decoder.swift in Sources */,
 				2CBD6D71267139DF008E06E4 /* SceneDelegate.swift in Sources */,

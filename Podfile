@@ -8,6 +8,8 @@ target 'HideMe' do
   # Pods for HideMe
   pod 'FirebaseFirestoreSwift'
   pod 'Firebase/Storage'
+  pod 'ProgressHUD'
+  pod 'RNCryptor', '~> 5.0'
 
   
 end
